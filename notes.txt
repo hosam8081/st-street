@@ -1,0 +1,38 @@
+- use lazy
+- not Found page
+- notice hover on menu
+- notice accordion on filter 
+- notice Scrolling on left in alerts
+- make filter applied 
+- if  used image make it webp and minmize it  why not ?!
+- SEO why not ?!
+- why not using storyBook 
+- use unit test for filter
+
+-------- Done -------
+- don't forget logo and project name
+- make data and loop on it 
+- one search input 
+- open  typescript erro
+- notice accordion on Tsla
+
+--------------- custom componets ---------
+search
+button
+radio check
+accordion
+
+
+Color scheme: 
+Black, white, and shades of gray.
+Accent color: 53ACFF
+Orange: D94111
+Green: 118F4B
+
+Fonts used:
+Headings: Poppins (Bold)
+Filters: Poppins (SemiBold)
+Body of alerts: Poppins (Regular)
+
+
+- don't forget upload on netlify
