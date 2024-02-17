@@ -10,24 +10,26 @@ const Alerts = () => {
   return (
     <>
       <AppLayout>
-        {/* <Grid container>
-          <Grid item xs={12} sm={8}>
-            <Navbar />
-            <ControlledAccordions />
-          </Grid>
-          <Grid xs={12} sm={4}>
-            <Box sx={{ flex: 1 , color:'#fff'}}>ssss</Box>
-          </Grid>
-        </Grid> */}
-        <Box sx={{ flex: 2, padding: "19px 24px 0", maxWidth: `calc(100% - ${sidebarWidth})` }}>
+        <Box
+          sx={{
+            flex: 2,
+            padding: "19px 24px 0",
+            maxWidth: `calc(100% - ${sidebarWidth})`,
+          }}
+        >
           <Navbar />
-          <Box sx={{mt:"39px"}}>
-            <ControlledAccordions data={alertsData}/>
+          <Box sx={{ mt: "39px" }}>
+            <ControlledAccordions data={alertsData} />
           </Box>
         </Box>
-        <Box sx={{ flex: 1, display:{xs:"none", lg:"block"}, padding:"19px 24px 0"}}>
+        <Box
+          sx={{
+            flex: 1,
+            display: { xs: "none", lg: "block" },
+            padding: "19px 24px 0",
+          }}
+        >
           <AlertsFilter />
-
         </Box>
       </AppLayout>
     </>
